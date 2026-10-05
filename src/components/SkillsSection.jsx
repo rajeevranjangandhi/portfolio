@@ -2,9 +2,21 @@ import { useState } from "react";
 import {cn} from '@/lib/utils';
 const skills = [
     {"name":"Python",level:95,category:"backend"},
-    {"name":"Php",level:90,category:"backend"},
-    {"name":"React",level:95,category:"frontend"},
-]
+    {"name":"PHP",level:90,category:"backend"},
+    {"name":"FastAPI",level:90,category:"backend"},
+    {"name":"Django",level:85,category:"backend"},
+    {"name":"Flask",level:90,category:"backend"},
+    {"name":"Laravel",level:85,category:"backend"},
+    {"name":"React",level:85,category:"frontend"},
+    {"name":"Angular",level:80,category:"frontend"},
+    {"name":"JavaScript",level:85,category:"frontend"},
+    {"name":"MySQL",level:90,category:"database"},
+    {"name":"PostgreSQL",level:80,category:"database"},
+    {"name":"SQLAlchemy",level:80,category:"backend"},
+    {"name":"REST APIs",level:90,category:"backend"},
+    {"name":"Docker",level:75,category:"tools"},
+    {"name":"Git / GitHub",level:85,category:"tools"},
+];
 
 const categories = ["all","frontend","backend","tools"]
 
